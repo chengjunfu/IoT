@@ -16,3 +16,7 @@ The AWS IoT Core device gateway in the cloud receives the published message and 
  
 The smart lamp subscribes to these messages so the AWS IoT Core message broker send them to the smart lamp.
 When the smart lamp receives a new message, it changes its state to match.
+
+# The message broker processes each message
+ 
+Each time the desired state changes on the control device, the process repeats.
