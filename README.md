@@ -20,3 +20,8 @@ When the smart lamp receives a new message, it changes its state to match.
 # The message broker processes each message
  
 Each time the desired state changes on the control device, the process repeats.
+
+# Device Shadows save system state while a device is offline
+ 
+When a device is not always connected, AWS IoT Device Shadows store and communicate a device’s desired and last-reported state.
+The smart lamp’s Device Shadow that stores the smart lamp’s state while either the control or the smart lamp is off line is shown in the diagram as the light bulb icon
